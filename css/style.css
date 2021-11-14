@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;700&family=Saira:wght@300;400&display=swap&subset=latin,latin-ext');
+
+:root {
+    --ONE-COLOR: #0B0C10;
+    --TWO-COLOR: #1F2833;
+    --THREE-COLOR: #C5C6C7;
+    --FOUR-COLOR: #66FCF1;
+    --FIVE-COLOR: #2ccac3;
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header a {
+    display: inline-block;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    background-color: var(--TWO-COLOR);
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 45%;
+
+}
+
+.welcome-text {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+}
+
+.welcome-text>* {
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    color: var(--THREE-COLOR);
+}
+
+.welcome-text>p {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.welcome-text>h1 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.welcome-text>h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.welcome-text>.button {
+    font-family: 'Saira', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 32px;
+    padding: 0 20px;
+    background-color: transparent;
+    border: 1px solid var(--THREE-COLOR);
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+@media (orientation: landscape) {
+    header img {
+        height: 90%;
+    }
+
+    .welcome-text {
+        left: 10%;
+        right: 50%;
+        text-align: left;
+        top: 15%;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 600px) and (max-height: 336px) {
+    .welcome-text {
+        top: 5%;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 640px) {
+
+
+    .welcome-text {
+        bottom: 15%;
+    }
+
+    .welcome-text>p {
+        font-size: 46px;
+    }
+
+    .welcome-text>h1 {
+        font-size: 23px;
+    }
+
+    .welcome-text>h2 {
+        font-size: 23px;
+    }
+
+    .welcome-text>.button {
+        font-size: 18px;
+        line-height: 35px;
+        padding: 0 20px;
+        border-width: 2px;
+        margin-top: 35px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 717px) and (min-height: 360px) {
+
+
+    .welcome-text {
+        top: 25%;
+    }
+
+    header img {
+        right: -10%;
+        height: 80%;
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 731px) {
+    .welcome-text {
+        top: 20%;
+        bottom: 20%;
+
+    }
+
+    header img {
+        right: 0;
+    }
+
+    .welcome-text>.button {
+        margin-top: 36px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 812px) {
+    .welcome-text {
+        right: 40%;
+        top: 10%;
+        bottom: 10%;
+    }
+
+    .welcome-text>p {
+        font-size: 49px;
+    }
+
+    .welcome-text>h1 {
+        font-size: 28px;
+    }
+
+    .welcome-text>h2 {
+        font-size: 28px;
+    }
+
+    .welcome-text>.button {
+        font-size: 20px;
+        line-height: 40px;
+        margin-top: 10%;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+    .welcome-text {
+        right: 30%;
+        top: 24%;
+        bottom: 20%;
+        left: 10%;
+    }
+
+    .welcome-text>p {
+        font-size: 70px;
+    }
+
+    .welcome-text>h1 {
+        font-size: 38px;
+    }
+
+    .welcome-text>h2 {
+        font-size: 38px;
+    }
+
+    .welcome-text>.button {
+        font-size: 30px;
+        line-height: 55px;
+        margin-top: 10%;
+    }
+
+    header img {
+        right: -8%;
+        height: 80%;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1336px) {
+    .welcome-text>p {
+        font-size: 75px;
+    }
+
+    .welcome-text {
+        top: 20%;
+
+    }
+
+    .welcome-text>h1 {
+        margin-top: 5%;
+        font-size: 46px;
+    }
+
+    .welcome-text>h2 {
+        font-size: 46px;
+    }
+
+    .welcome-text>.button {
+        font-size: 40px;
+        line-height: 75px;
+        margin-top: 10%;
+    }
+
+    header img {
+        right: -1%;
+        height: 80%;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+    .welcome-text>p {
+        font-size: 35px;
+    }
+
+    .welcome-text>h1 {
+        font-size: 28px;
+    }
+
+    .welcome-text>h2 {
+        font-size: 28px;
+    }
+
+    .welcome-text>.button {
+        font-size: 22px;
+        line-height: 38px;
+        margin-top: 10%;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 720px) {
+    .welcome-text>p {
+        font-size: 50px;
+    }
+
+    .welcome-text>h1 {
+        font-size: 40px;
+    }
+
+    .welcome-text>h2 {
+        font-size: 40px;
+    }
+
+    .welcome-text>.button {
+        font-size: 32px;
+        line-height: 50px;
+        margin-top: 10%;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 1020px) {
+    .welcome-text>p {
+        font-size: 67px;
+    }
+
+    .welcome-text>h1 {
+        font-size: 56px;
+    }
+
+    .welcome-text>h2 {
+        font-size: 50px;
+    }
+
+    .welcome-text>.button {
+        font-size: 45px;
+        line-height: 65px;
+        margin-top: 15%;
+    }
+}
+
+
+/* Section 1*/
+
+.features {
+    max-width: 1600px;
+    margin: 30px auto 0;
+    padding: 5%;
+    text-align: center;
+    color: var(--TWO-COLOR)
+}
+
+.features .feature {
+    margin-top: 40px;
+}
+
+.features h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+
+.features img {
+    width: 50%;
+    margin: 5px 0;
+    max-width: 820px;
+    border-radius: 10%;
+}
+
+.features .feature:nth-of-type(odd) img {
+    aspect-ratio: 1.8/1;
+}
+
+.features h2 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+.features p {
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+
+@media (min-width: 350px) {
+    .features p {
+        font-size: 14px;
+    }
+
+    .features h1 {
+        font-size: 32px;
+    }
+
+    .features h2 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 500px) {
+    .features p {
+        font-size: 20px;
+    }
+
+    .features h1 {
+        font-size: 40px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .features p {
+        font-size: 20px;
+    }
+
+    .features h1 {
+        font-size: 53px;
+    }
+
+    .features h2 {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .features p {
+        font-size: 20px;
+    }
+
+    .features h1 {
+        font-size: 53px;
+    }
+
+    .features h2 {
+        font-size: 32px;
+    }
+}
+
+@media (orientation: landscape) {
+    .features img {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+    .features {
+        padding: 5% 2%;
+    }
+
+    .feature {
+        float: left;
+        width: 33%;
+        padding: 1%;
+    }
+
+    .features img {
+        width: 100%;
+    }
+
+    
+    .features h2 {
+        font-size: 22px;
+    }
+
+    .features p {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+}
+
+/* Sekcja portfolio */
+
+.portfolio {
+    /* background-color: var(--THREE-COLOR); */
+    background-color: white;
+    padding: 10px 0 30px;
+    margin-inline: 10px;
+}
+
+.portfolio h1 {
+    font-size: 28px;
+    font-family: 'Saira Condensed', sans-serif;
+    text-transform: uppercase;
+    color: var(--TWO-COLOR);
+    text-align: center;
+    padding: 20px;
+}
+
+.portfolio .imgdiv img {
+    width: 100%;
+}
+
+.portfolio .aboutproject {
+    color: var(--TWO-COLOR);
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    padding: 10px 20px 20px 20px;
+    text-align: left;
+}
+
+.portfolio .aboutproject h2 {
+    font-size: 18px;
+    border-bottom: 2px solid var(--THREE-COLOR);
+    margin-bottom: 12px;
+
+}
+
+.portfolio .aboutproject p {
+    font-size: 12px;
+}
+
+.portfolio .project {
+    background-color: white;
+    box-shadow: 0px 0px 53px -20px rgba(66, 68, 90, 1);
+}
+
+.portfolio .project img {
+    border-radius: 20px;
+}
+
+.portfolio .project {
+    border-radius: 15px;
+    max-width: 1500px;
+    margin: 0 auto 50px;
+    padding: 25px;
+}
+
+.portfolio .project .imgdiv {
+    position: relative;
+}
+
+.portfolio .project .imgdiv a img:first-child {
+    height: 100%;
+}
+
+.portfolio .project .imgdiv a:hover::after {
+    content: "VISIT REPOSITORY";
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--THREE-COLOR);
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 60%);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.portfolio .project:last-child .imgdiv a:hover::after {
+    content: "YOUR OWN PROJECT?";
+}
+
+.portfolio .project .imgdiv a img:last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+    height: 100%;
+    /* filter: grayscale(50%); */
+}
+
+.portfolio .project .imgdiv a:hover img:last-child {
+    opacity: 1;
+}
+
+@media (orientation: landscape) {
+
+    .imgdiv,
+    .aboutproject {
+        width: 50%;
+        float: left;
+    }
+
+    .imgdiv img {
+        display: block;
+    }
+
+    .portfolio .project:nth-of-type(even) .imgdiv {
+        float: right;
+    }
+
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+    .portfolio h1{
+        font-size: 32px;
+    }
+}
+@media (orientation: portrait) and (min-width: 500px) {
+    .portfolio h1 {
+        font-size: 40px;
+    }
+
+    .portfolio .aboutproject h2 {
+        font-size: 30px;
+        margin-bottom: 12px;
+
+    }
+
+    .portfolio .aboutproject p {
+        font-size: 17px;
+        padding: 2% 0%;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 700px) {
+    .portfolio h1 {
+        font-size: 53px;
+    }
+
+    .portfolio .aboutproject h2 {
+        font-size: 36px;
+        margin-bottom: 14px;
+
+    }
+
+    .portfolio .aboutproject p {
+        font-size: 26px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 1000px) {
+    .portfolio h1 {
+        font-size: 60px;
+    }
+
+    .portfolio .aboutproject h2 {
+        font-size: 36px;
+        margin-bottom: 14px;
+
+    }
+
+    .portfolio .aboutproject p {
+        font-size: 26px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 650px) {
+    .portfolio h1 {
+        font-size: 32px;
+    }
+
+    .portfolio .aboutproject h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+
+    }
+
+    .portfolio .aboutproject p {
+        font-size: 18px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1000px) {
+    .portfolio h1 {
+        font-size: 40px;
+    }
+
+    .portfolio .aboutproject h2 {
+        font-size: 35px;
+        margin-bottom: 14px;
+
+    }
+
+    .portfolio .aboutproject p {
+        font-size: 25px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1360px) {
+    .portfolio h1 {
+        font-size: 60px;
+    }
+
+    .portfolio .aboutproject h2 {
+        font-size: 38px;
+        margin-bottom: 16px;
+
+    }
+
+    .portfolio .aboutproject p {
+        font-size: 30px;
+    }
+}
