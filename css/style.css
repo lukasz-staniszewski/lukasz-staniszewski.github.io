@@ -314,7 +314,7 @@ header img {
 /* Section 1*/
 
 .features {
-    max-width: 1600px;
+    max-width: 1350px;
     margin: 30px auto 0;
     padding: 5%;
     text-align: center;
@@ -528,7 +528,7 @@ header img {
 
 .portfolio .project {
     border-radius: 15px;
-    max-width: 1500px;
+    max-width: 1350px;
     margin: 0 auto 50px;
     padding: 25px;
 }
@@ -852,7 +852,7 @@ header img {
 
 
 .hobbies .container {
-    max-width: 1500px;
+    max-width: 1350px;
     margin: 0 auto;
     border-radius: 10px;
     display: grid;
@@ -1016,7 +1016,7 @@ header img {
 }
 
 .courses .container {
-    max-width: 1500px;
+    max-width: 1350px;
     margin: 0 auto;
     border-radius: 10px;
     overflow: hidden;
