@@ -453,20 +453,20 @@ header img {
 
 @media (min-width: 1336px) and (orientation: landscape) {
     .features {
-        padding: 0 8%;
+        padding: 0 10%;
     }
 
     .features h1 {
-        font-size: 60px;
+        font-size: 45px;
     }
 
     .features h2 {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .features p {
-        font-size: 24px;
-        padding: 0 10px;
+        font-size: 21px;
+        padding: 0 15px;
     }
 
 }
@@ -528,7 +528,7 @@ header img {
 
 .portfolio .project {
     border-radius: 15px;
-    max-width: 1350px;
+    max-width: 1150px;
     margin: 0 auto 50px;
     padding: 25px;
 }
@@ -688,17 +688,17 @@ header img {
 
 @media (orientation: landscape) and (min-width: 1360px) {
     .portfolio h1 {
-        font-size: 60px;
+        font-size: 45px;
     }
 
     .portfolio .aboutproject h2 {
-        font-size: 38px;
+        font-size: 30px;
         margin-bottom: 16px;
 
     }
 
     .portfolio .aboutproject p {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .portfolio .project .imgdiv a:hover::after {
@@ -706,6 +706,7 @@ header img {
 
     }
 }
+
 
 .motto {
     text-align: center;
@@ -717,7 +718,6 @@ header img {
     background-attachment: fixed;
 }
 
-/* quote */
 .motto h1 {
     font-size: 28px;
     font-family: 'Saira Condensed', sans-serif;
@@ -808,20 +808,19 @@ header img {
 
 @media (orientation: landscape) and (min-width: 1360px) {
     .motto h1 {
-        font-size: 60px;
+        font-size: 45px;
     }
 
     .motto .quote {
-        font-size: 42px;
+        font-size: 30px;
         margin-top: 36px;
     }
 
     .motto .author {
-        font-size: 30px;
+        font-size: 25px;
     }
 
 }
-
 
 /* section hobbies */
 
@@ -852,7 +851,7 @@ header img {
 
 
 .hobbies .container {
-    max-width: 1350px;
+    max-width: 1150px;
     margin: 0 auto;
     border-radius: 10px;
     display: grid;
@@ -945,11 +944,11 @@ header img {
 
 @media (orientation: landscape) and (min-width: 1366px) {
     .hobbies h1 {
-        font-size: 60px;
+        font-size: 45px;
     }
 
     .hobbies .hobby p {
-        font-size: 40px;
+        font-size: 35px;
     }
 }
 
@@ -1016,7 +1015,7 @@ header img {
 }
 
 .courses .container {
-    max-width: 1350px;
+    max-width: 1150px;
     margin: 0 auto;
     border-radius: 10px;
     overflow: hidden;
@@ -1149,7 +1148,7 @@ header img {
 
 @media (orientation: landscape) and (min-width: 1366px) {
     .courses h1 {
-        font-size: 60px;
+        font-size: 45px;
     }
 
     .courses .course {
@@ -1157,7 +1156,7 @@ header img {
     }
 
     .courses .course div h2 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .courses .course div h3 {
@@ -1173,7 +1172,7 @@ header img {
     }
 
     .courses .course img {
-        padding-right: 30px;
+        padding-right: 20px;
         max-width: 20%;
         border-radius: 10px;
     }
@@ -1288,11 +1287,11 @@ footer>p {
 
 @media (orientation: landscape) and (min-width: 1366px) {
     footer h1 {
-        font-size: 60px;
+        font-size: 45px;
     }
 
     footer ul li a {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     footer ul {
